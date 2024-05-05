@@ -23,7 +23,6 @@ local Window = Rayfield:CreateWindow({
      }
  }) 
  local Playertab = Window:CreateTab("Farms/Rebirth", 4483362458)
- local MiscTab = Window:CreateTab("Misc", 4483362458)
 
 
  local Toggle = Playertab:CreateToggle({
@@ -59,9 +58,3 @@ local Toggle = Playertab:CreateToggle({
         end
     end,
 })
- local Button = MiscTab:CreateButton({
-    Name = "Close Script",
-    Callback = function()
-        Rayfield:Destroy()
-    end,
- })
